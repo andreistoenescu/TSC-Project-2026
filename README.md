@@ -69,32 +69,32 @@ Tehnologia cheie este display-ul **E-Paper (e-ink)** — odată ce afișează ce
 
 ## Componente — BOM complet
 
-| Ref | Part Number | Descriere | Qty | JLC Parts | Datasheet |
-|-----|------------|-----------|:---:|:---------:|:---------:|
-| U1 | nRF52840-QIAA | MCU ARM Cortex-M4, BT 5.0, USB 2.0, 1MB Flash | 1 | [↗](https://jlcpcb.com/partdetail/NordicSemiconductor-nRF52840_QIAA/C190794) | [↗](https://infocenter.nordicsemi.com/pdf/nRF52840_PS_v1.7.pdf) |
-| IC1 | BQ25180YBGR | LiPo charger liniar 1A I2C, 8-DSBGA | 1 | [↗](https://jlcpcb.com/partdetail/TexasInstruments-BQ25180YBGR/C2678061) | [↗](https://www.ti.com/lit/ds/symlink/bq25180.pdf) |
-| IC2 | DRV2605YZFR | Haptic driver ERM/LRA I2C 123 efecte, 9-BGA | 1 | [↗](https://jlcpcb.com/partdetail/TexasInstruments-DRV2605YZFR/C2827940) | [↗](https://www.ti.com/lit/ds/symlink/drv2605.pdf) |
-| IC3 | BMA423 | Accelerometru MEMS triaxial 12-bit, LGA-12 | 1 | [↗](https://jlcpcb.com/partdetail/Bosch-BMA423/C3680782) | [↗](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma423-ds000.pdf) |
-| U3 | MAX17048G+T10 | Fuel gauge ModelGauge 1-cell, SOT-23-6 | 1 | [↗](https://jlcpcb.com/partdetail/MaximIntegrated-MAX17048G_T10/C82227) | [↗](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf) |
-| IC9 | RT6160AWSC | Buck-Boost DC/DC 800mA I2C, 15-WL-CSP | 1 | [↗](https://jlcpcb.com/partdetail/RichTek-RT6160AWSC/C2836606) | [↗](https://www.richtek.com/assets/product_file/RT6160A/DS6160A-00.pdf) |
-| D3 | USBLC6-2SC6Y | TVS ESD ±15kV bidirecțional USB, SOT-23-6 | 1 | [↗](https://jlcpcb.com/partdetail/STMicroelectronics-USBLC6_2SC6Y/C2687376) | [↗](https://www.st.com/resource/en/datasheet/usblc6-2.pdf) |
-| J4 | KH-TYPE-C-16P | Conector USB-C 16 pini SMD | 1 | [↗](https://jlcpcb.com/partdetail/Korean%20Hroparts%20Elec-TYPE_C_16PIN/C165948) | [↗](https://datasheet.lcsc.com/lcsc/2003271335_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf) |
-| J1 | 503480-2400 | Conector FPC/FFC 0.5mm pas 24 circuite | 1 | [↗](https://jlcpcb.com/partdetail/Molex-5034802400/C277522) | [↗](https://www.molex.com/pdm_docs/sd/5034802400_sd.pdf) |
-| J2 | TC2030-IDC | Tag-Connect SWD 6 pini footprint-only | 1 | [↗](https://jlcpcb.com/partdetail/Tag_Connect-TC2030IDC/C720850) | [↗](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-IDC_1.pdf) |
-| Q2 | DMG2305UX-7 | P-MOSFET 20V/4.2A, SOT-23 | 1 | [↗](https://jlcpcb.com/partdetail/Diodes-DMG2305UX_7/C134763) | [↗](https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf) |
-| Q3 | SI1308EDL-T1-GE3 | N-MOSFET 30V/1.5A, SC-70 | 1 | [↗](https://jlcpcb.com/partdetail/Vishay-SI1308EDL_T1_GE3/C114273) | [↗](https://www.vishay.com/docs/63597/si1308edl.pdf) |
-| D1,D2,D5 | MBR0530 | Schottky 30V/500mA, SOD-123 | 3 | [↗](https://jlcpcb.com/partdetail/Onsemi-MBR0530T1G/C22829) | [↗](https://www.onsemi.com/pdf/datasheet/mbr0530t1-d.pdf) |
-| SW_* | EVP-AKE31A | Buton tactil SMD ultra-subțire Panasonic | 3 | [↗](https://jlcpcb.com/partdetail/Panasonic-EVPAKE31A/C255499) | [↗](https://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf) |
-| ANT1 | 2450AT18B100E | Antenă SMD 2.45GHz Johanson | 1 | [↗](https://jlcpcb.com/partdetail/Johanson-2450AT18B100E/C89769) | [↗](https://www.johansontechnology.com/datasheets/2450AT18B100E/2450AT18B100E.pdf) |
-| L7 | FTC252012SR47MBCA | Inductor 0.47μH SMD 2016 | 1 | [↗](https://jlcpcb.com/partdetail/Tdk-MLZ2012M1R0WT000/C408369) | [↗](https://datasheet.lcsc.com/lcsc/2109061830_TDK-MLZ2012M1R0WT000_C408369.pdf) |
-| L5 | 744043680 | Inductor 68μH WE-TPC SMD | 1 | [↗](https://jlcpcb.com/partdetail/Wurth_Elektronik-744043680/C408407) | [↗](https://www.we-online.com/catalog/datasheet/744043680.pdf) |
-| X1 | Crystal 32MHz | Oscilator SMD 32MHz 2016 | 1 | [↗](https://jlcpcb.com/partdetail/Txc-7M_32_000MEEEV_T/C255919) | [↗](https://datasheet.lcsc.com/lcsc/1810171817_TXC-7M-32-000MEEEV-T_C255919.pdf) |
-| X2 | Crystal 32.768kHz | Oscilator RTC 32.768kHz 3215 SMD | 1 | [↗](https://jlcpcb.com/partdetail/Micro_Crystal-CM7V_T1A32_768kHz12_5pF_10ppm/C32346) | [↗](https://www.microcrystal.com/fileadmin/Media/Products/32kHz/App_Manual/CM7V-T1A_Application_Manual.pdf) |
-| Cx | — | Condensatoare SMD 0201/0402, 1pF–22μF | ~50 | — | — |
-| Rx | — | Rezistoare SMD 0201, 2.2Ω–10kΩ | ~15 | — | — |
-| Lx | — | Inductoare SMD 0402, 3.9nH–10μH | ~4 | — | — |
-| TP_* | TP20R | Test pad SMD 2mm | 14 | — | — |
-| SJ1 | — | Solder jumper SMD | 1 | — | — |
+| Ref | Part Number | Descriere | Qty |
+|-----|------------|-----------|:---:|
+| U1 | nRF52840-QIAA | MCU ARM Cortex-M4, BT 5.0, USB 2.0, 1MB Flash | 1 |
+| IC1 | BQ25180YBGR | LiPo charger liniar 1A I2C, 8-DSBGA | 1 |
+| IC2 | DRV2605YZFR | Haptic driver ERM/LRA I2C 123 efecte, 9-BGA | 1 |
+| IC3 | BMA423 | Accelerometru MEMS triaxial 12-bit, LGA-12 | 1 |
+| U3 | MAX17048G+T10 | Fuel gauge ModelGauge 1-cell, SOT-23-6 | 1 |
+| IC9 | RT6160AWSC | Buck-Boost DC/DC 800mA I2C, 15-WL-CSP | 1 |
+| D3 | USBLC6-2SC6Y | TVS ESD ±15kV bidirecțional USB, SOT-23-6 | 1 |
+| J4 | KH-TYPE-C-16P | Conector USB-C 16 pini SMD | 1 |
+| J1 | 503480-2400 | Conector FPC/FFC 0.5mm pas 24 circuite | 1 |
+| J2 | TC2030-IDC | Tag-Connect SWD 6 pini footprint-only | 1 |
+| Q2 | DMG2305UX-7 | P-MOSFET 20V/4.2A, SOT-23 | 1 |
+| Q3 | SI1308EDL-T1-GE3 | N-MOSFET 30V/1.5A, SC-70 | 1 |
+| D1,D2,D5 | MBR0530 | Schottky 30V/500mA, SOD-123 | 3 |
+| SW_* | EVP-AKE31A | Buton tactil SMD ultra-subțire Panasonic | 3 |
+| ANT1 | 2450AT18B100E | Antenă SMD 2.45GHz Johanson | 1 |
+| L7 | FTC252012SR47MBCA | Inductor 0.47μH SMD 2016 | 1 |
+| L5 | 744043680 | Inductor 68μH WE-TPC SMD | 1 |
+| X1 | Crystal 32MHz | Oscilator SMD 32MHz 2016 | 1 |
+| X2 | Crystal 32.768kHz | Oscilator RTC 32.768kHz 3215 SMD | 1 |
+| Cx | — | Condensatoare SMD 0201/0402, 1pF–22μF | ~50 |
+| Rx | — | Rezistoare SMD 0201, 2.2Ω–10kΩ | ~15 |
+| Lx | — | Inductoare SMD 0402, 3.9nH–10μH | ~4 |
+| TP_* | TP20R | Test pad SMD 2mm | 14 |
+| SJ1 | — | Solder jumper SMD | 1 |
 
 ---
 
