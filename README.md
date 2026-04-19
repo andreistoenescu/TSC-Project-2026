@@ -244,11 +244,11 @@ Modelarea 3D a ansamblului ceasului a fost realizată în **Autodesk Fusion** ș
 
 ### Ceas asamblat
 
-![Ceas asamblat](Images/Ceas_3D_asamblat.png)
+![Ceas asamblat](Images/Ceas%203D%20asamblat.png)
 
 ### Exploded View
 
-![Exploded View](Images/Exploded_view.png)
+![Exploded View](Images/Exploded%20view.png)
 
 ### Baterie
 
